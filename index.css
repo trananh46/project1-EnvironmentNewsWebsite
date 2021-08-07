@@ -1,0 +1,24 @@
+
+body{
+    background-color: #E1D686;
+}
+.left{
+height: 50%;
+width: 50%;
+}
+.anh{
+    height: 50%;
+width: 65%;
+}
+.right{
+
+    height: 105%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 1%;
+}
+.anh{
+  margin-left: 35%;
+  border-radius: 35px;
+}

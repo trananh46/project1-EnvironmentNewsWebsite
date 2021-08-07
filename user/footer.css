@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+    padding: 0;
+   
+}
+
+
+header{
+  
+   
+}
+
+.image{
+    width: 120px;
+    margin-left: 40%;
+}
+#logo{
+        font-size: 27px;
+        color: #999999;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        margin-top: -55px;
+        margin-left: 50%;
+}
+
+.midder{
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 55px;
+    /* background: red; */
+}
+
+.text-center{
+    text-align: center;
+    font-style: italic;     /* kiểu chữ nghiêng */
+    font-size: 22px;
+    font-family: serif;
+}
+
+.detail-informations{
+    display: flex;
+    flex-direction: row;
+    /* background: yellow; */
+   
+    
+}
+.detail-informations > div{
+    line-height: 30px;
+    width: 200px;
+    margin-left: 40px;
+    text-decoration: none;
+    
+}
+.detail-informations > div >p{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+.footer{
+    font-size: 22px;
+    margin-top: 10%;
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+}
+.detail-informations2 > a {
+    text-decoration: none;
+    color: gray;
+}
+.detail-informations3 >a{
+    text-decoration: none;
+    color: gray;
+}
+.detail-informations4 p a{
+    text-decoration: none;
+    color: black;
+}
+.detail-informations5 p a{
+    text-decoration: none;
+    color: black;
+}
+
+
+

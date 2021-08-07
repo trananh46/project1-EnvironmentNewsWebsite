@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" sans-serif;
+}
+
+header{
+    position: fixed;
+    background-color: #2C1F1D;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    margin-top: 0px;
+}
+
+.left_area h3{
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase; /*  thiết lập các ký tự viết hoa cho văn bản */
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.left_area span{
+    color: #1DC4E7;
+}
+
+.logout{
+    padding: 5px;
+    background: #3FB8C8;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 20px; /* chỉnh bo viền tròn */
+    font-size: 20px; 
+    font-weight: 600; /* thiết lập in đậm chữ */
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.logout:hover{
+    background: #31DEF6;
+
+}
+
+.side_bar{
+    background: #4F5E61;
+    margin-top: 70px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 230px;
+    height: 100%;
+    
+}
+
+.side_bar .profile_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px; /* chỉnh bo tròn ảnh */
+    margin-bottom: -10px; /* chỉnh khoảng cách từ ảnh đến viền dưới */
+
+}
+
+.side_bar h4{
+    color: #ccc;
+    margin-top: 15px; /* chỉnh phần tên lên cao */
+    margin-bottom: 0px;
+}
+
+.side_bar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px; /* Thuộc tính line-height thiết lập chiều cao giữa các dòng */
+    text-decoration: none;
+    padding-left: 40px ;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: background;
+
+}
+
+
+.side_bar a:hover{
+    background: #3FB8C8;
+}
+
+.side_bar i{
+    padding-right: 10px;
+}
+
+.content{
+    margin-left: 255px;
+    height: 100vh;
+    padding-top: 85px;
+}
+
+.danh_sach{
+    width: 95%;
+    height: 50%;
+    border-radius: 20px;
+    background: #EAD30C;
+}
+.add_admin{
+    background:  #EAD30C;
+    margin-right: 65%;
+    border-radius: 20px ;
+}
+.add_admin form{
+    margin-left: 13%;
+}
+
+.tim-kiem{
+    margin-left: 20%;
+    margin-top: 5%;
+}

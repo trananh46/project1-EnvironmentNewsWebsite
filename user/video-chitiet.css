@@ -1,0 +1,22 @@
+.tong{
+    display: flex;
+    flex-direction: row;
+}
+.video-trai video{
+    width: 90%;
+    height: 100%;
+    margin-top: 0px;
+}
+.video-trai{
+    width: 90%;
+    border-right: 3px solid black;
+}
+.video-trai h1{
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+.cuoi{
+    margin-top: 50px;
+}

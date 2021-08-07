@@ -1,0 +1,13 @@
+
+header{
+    background-image: ;
+      margin-top: 10%;
+      margin-left: 5%;
+  }
+  #coin{
+      position: absolute;
+      left: 50%;
+  }
+  .error {
+      color: red;
+  }

@@ -1,0 +1,28 @@
+
+body{
+    background-image: url('environment.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+  #coin{
+      position: absolute;
+      left: 50%;
+  }
+  .error {
+      color: red;
+  }
+  .tong{
+      margin-left: 50%;
+  }
+
+  table{
+      background: #C6C7B6;
+      border-radius: 20px;
+      width:590px;
+     
+  }
+
+  #coin{
+      margin-left: 20%;
+  }

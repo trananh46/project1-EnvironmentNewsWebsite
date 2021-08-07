@@ -1,0 +1,19 @@
+.start-comment{
+    display: flex;
+    flex-direction: row;
+    background: #F4EBE4;
+    width: 95%;
+}
+.start-comment div{
+    padding: 10px ;
+    display: block;
+    margin-left: 10px;
+    
+}
+.start-comment div h2 a{
+    text-decoration: none;
+    color: black;
+}
+.start-comment div:hover{
+    border-bottom: 3px solid orangered;
+}

@@ -1,0 +1,49 @@
+
+.hienthi-binhluan-moinguoi{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    background: #ECCAAE;
+    border-radius: 20px;
+}
+
+.binhluan-trai img{
+    border-radius: 35px;
+    margin-top: 20px;
+}
+.binhluan-phai{
+    margin-left: 20px;
+    width: 75%;
+    
+}
+.binhluan-phai1{
+    display: flex;
+    flex-direction: row;
+}
+.binhluan-phai1 h5{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: gray;
+}
+.binhluan-phai h4{
+    margin-top: 0px;
+}
+.danhsach-tatca-comment{
+    background: #F4EBE4;
+    width: 95%; 
+}
+.xem-baiviet{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border: 1px solid gray;
+    color: black;
+}
+.xem-baiviet:hover{
+    background: #D8AA84;
+}

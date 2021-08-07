@@ -1,0 +1,112 @@
+body{
+    /* background: red; */
+}
+
+body > h1{
+    margin-left: 200px;
+    margin-top: 120px;
+    font-size: 67px;
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.left{
+    /* background:yellow; */
+    float: left;
+    margin-left: 40px;
+    width: 60%;
+    margin-top: 70px;
+}
+.right{
+    /* background: lightcoral; */
+    width: 35%;
+    float: right;
+    margin-top: 70px;
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.right > img{
+    max-width: 420px;
+    max-height: 260px;
+    width: auto;
+    height: auto;
+    margin-left: 8%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #AAA;
+    margin-top: 20px;
+    
+}
+
+.left p{
+    font-size: 35px;
+}
+
+.content{
+    margin-top: 55px;
+}
+
+.content >p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.hienthi-binhluan{
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.binh-luan{
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.binh-luan button{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.binh-luan button:hover{
+    background: #EC994B;
+}
+
+.right >h1{
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: 150px;
+    font-size: 40px;
+}
+.right-a{
+    background: #FF5733;
+    height: 5px;
+    width: 50px;
+    border-radius: 8px;
+    margin-left: 210px;
+    margin-top: 20px;
+}
+.start-binhluan-canhan{
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  border: 1px solid #F4EBE4;
+  border-radius: 10px;
+  background: #F4EBE4;
+}
+.binhluan-canhan textarea{
+    border-radius: 5px;
+}
+.start-binhluan-moinguoi h1{
+    font-family: 'Open Sans',sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.hienthi-binhluan-moinguoi{
+    display: flex;
+    flex-direction: row;
+    
+}
+.binhluan-trai img{
+    border-radius: 35px;
+}
+.binhluan-phai{
+    margin-left: 20px;
+    width: 150%;
+}
+.binhluan-phai1{
+    display: flex;
+    flex-direction: row;
+}
+.binhluan-phai1 h5{
+    margin-top: 4px;
+    margin-left: 10px;
+    color: gray;
+}
+
+

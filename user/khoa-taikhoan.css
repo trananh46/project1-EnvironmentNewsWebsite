@@ -1,0 +1,29 @@
+.tong{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.left{
+    float: left;
+   
+}
+.left >p{
+    font-size: 55px;
+}
+.left>a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: block;
+    border: 1px solid transparent;
+    background: orangered;
+    width: 190px;
+    padding: 15px;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+.right{
+    float: right;
+    
+}
